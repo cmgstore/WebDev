@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebDev Pro — Layanan Website & Konsultasi Bisnis</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar" id="navbar">
+    <div class="brand">
+      <div class="brand-text">
+        <div class="brand-name">WebDev Pro</div>
+        <div class="brand-sub">Website • Growth • Konsultasi</div>
+      </div>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- SIDE MENU -->
+  <div class="overlay hidden" id="overlay"></div>
+  <aside class="side-menu" id="sideMenu" aria-hidden="true">
+    <div class="side-top">
+      <div class="side-title">Menu</div>
+      <button class="side-close" id="closeMenu" aria-label="Tutup menu">✕</button>
+    </div>
+
+    <nav class="side-links">
+      <a href="#hero">Home</a>
+      <a href="#about">Mengapa Kami</a>
+      <a href="#services">Layanan</a>
+      <a href="#pricing">Harga</a>
+      <a href="#testimoni">Testimoni</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <a class="side-cta" href="https://wa.me/6281391832772" target="_blank" rel="noopener">
+      Chat WhatsApp
+    </a>
+  </aside>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-left reveal">
+          <div class="chip">🚀 Agency-style build</div>
+          <h1>Bangun Website yang<br />Siap Closing & Scale</h1>
+          <p>
+            Bukan cuma “tampil keren”. Kita rapikan positioning, struktur, dan CTA
+            biar bisnis kamu lebih dipercaya dan lebih gampang closing.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#pricing">Lihat Paket</a>
+            <a class="btn btn-ghost" href="https://wa.me/6281391832772" target="_blank" rel="noopener">
+              Chat WhatsApp
+            </a>
+          </div>
+
+          <div class="trust reveal">
+            <div class="trust-item">
+              <div class="trust-num"><span class="counter" data-target="50">0</span>+</div>
+              <div class="trust-label">Project</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-num"><span class="counter" data-target="30">0</span>+</div>
+              <div class="trust-label">Klien</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-num"><span class="counter" data-target="100">0</span>%</div>
+              <div class="trust-label">Komitmen</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right reveal">
+          <div class="mock-card">
+            <div class="mock-top">
+              <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+              <div class="mock-title">Landing Page Preview</div>
+            </div>
+            <div class="mock-body">
+              <div class="mock-line w80"></div>
+              <div class="mock-line w60"></div>
+              <div class="mock-line w70"></div>
+              <div class="mock-grid">
+                <div class="mock-box"></div>
+                <div class="mock-box"></div>
+                <div class="mock-box"></div>
+              </div>
+              <div class="mock-cta"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Mengapa Kami?</h2>
+          <div class="divider"></div>
+          <p class="muted">Pendekatan yang rapi: desain + strategi + eksekusi.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="glass-card reveal">
+            <div class="icon">🎯</div>
+            <h3>Fokus Konversi</h3>
+            <p>Website disusun untuk bikin orang percaya, klik, dan chat.</p>
+          </div>
+          <div class="glass-card reveal">
+            <div class="icon">🧠</div>
+            <h3>Strategi Bisnis</h3>
+            <p>Positioning, penawaran, dan CTA biar arahnya jelas.</p>
+          </div>
+          <div class="glass-card reveal">
+          <h3>Cepat & Profesional</h3>
+            <p>Timeline jelas, revisi terstruktur, hasil rapi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Layanan</h2>
+          <div class="divider"></div>
+          <p class="muted">Pilihan layanan yang paling sering dipakai klien.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="glass-card reveal">
+            <div class="icon">🧩</div>
+            <h3>Landing Page</h3>
+            <p>Untuk personal brand/UMKM: cepat, rapi, CTA jelas.</p>
+          </div>
+          <div class="glass-card reveal">
+            <div class="icon">🛒</div>
+            <h3>Toko Online</h3>
+            <p>Katalog, WhatsApp order, payment link, halaman produk.</p>
+          </div>
+          <div class="glass-card reveal">
+            <div class="icon">📈</div>
+            <h3>Growth & Funnel</h3>
+            <p>Rapihin flow, penawaran, konten, sampai lebih siap closing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Paket Harga</h2>
+          <div class="divider"></div>
+          <p class="muted">Harga bisa menyesuaikan scope. Ini baseline paling umum.</p>
+        </div>
+
+        <div class="grid grid-3 pricing">
+          <div class="price-card reveal">
+            <div class="price-top">
+              <h3>Starter</h3>
+              <div class="price">Rp 1.500.000</div>
+            </div>
+            <ul>
+              <li>1 halaman (landing)</li>
+              <li>Mobile friendly</li>
+              <li>1x revisi</li>
+              <li>CTA WhatsApp</li>
+            </ul>
+            <a class="btn btn-primary btn-full wa-pack" data-pack="Starter" href="#">Pilih Paket</a>
+          </div>
+<div class="price-card popular reveal">
+
+  <div class="price-top">
+    <div>
+      <h3>Business</h3>
+      <div class="badge">Best Seller</div>
+    </div>
+    <div class="price">Rp 3.500.000</div>
+  </div>
+
+  <ul>
+    <li>Multi halaman</li>
+    <li>SEO basic</li>
+    <li>3x revisi</li>
+    <li>Copywriting ringan</li>
+  </ul>
+
+  <a class="btn btn-primary btn-full wa-pack"
+     data-pack="Business"
+     href="#">Pilih Paket</a>
+
+</div>
+
+
+          <div class="price-card reveal">
+            <div class="price-top">
+              <h3>Pro Growth</h3>
+              <div class="price">Custom</div>
+            </div>
+            <ul>
+              <li>Custom system</li>
+              <li>Integrasi payment</li>
+              <li>Konsultasi strategi</li>
+              <li>Scope sesuai kebutuhan</li>
+            </ul>
+            <a class="btn btn-primary btn-full wa-pack" data-pack="Pro Growth" href="#">Diskusi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONI -->
+    <section class="section" id="testimoni">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Testimoni</h2>
+          <div class="divider"></div>
+          <p class="muted">Beberapa feedback klien.</p>
+        </div>
+
+        <div class="testimonial-wrap reveal">
+          <div class="testimonial-card active">
+            <p>“Closing naik 2x lipat setelah pakai website ini.”</p>
+            <span>— UMKM Fashion</span>
+          </div>
+          <div class="testimonial-card">
+            <p>“Timnya responsif dan hasilnya profesional.”</p>
+            <span>— Owner Brand</span>
+          </div>
+          <div class="testimonial-card">
+            <p>“Strateginya jelas, bukan cuma coding.”</p>
+            <span>— Jasa Konsultan</span>
+          </div>
+
+          <div class="dots" id="dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>FAQ</h2>
+          <div class="divider"></div>
+          <p class="muted">Pertanyaan sebelum deal biasanya.</p>
+        </div>
+
+        <div class="faq reveal">
+          <button class="faq-q">Berapa lama pengerjaan? <span>+</span></button>
+          <div class="faq-a">Rata-rata 3–7 hari tergantung materi & scope.</div>
+
+          <button class="faq-q">Bisa pakai domain sendiri? <span>+</span></button>
+          <div class="faq-a">Bisa. Kami bantu setup domain + hosting.</div>
+
+          <button class="faq-q">Apakah ada revisi? <span>+</span></button>
+          <div class="faq-a">Ada. Tiap paket punya jatah revisi.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / CONTACT -->
+    <section class="cta" id="contact">
+      <div class="container reveal">
+        <h2>Siap Naik Level?</h2>
+        <p>Diskusi gratis 15 menit untuk mapping kebutuhan bisnismu.</p>
+        <a class="btn btn-primary" href="https://wa.me/6281391832772" target="_blank" rel="noopener">
+          Konsultasi Sekarang
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING WA -->
+  <a class="floating-wa" href="https://wa.me/6281391832772" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+    💬
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
